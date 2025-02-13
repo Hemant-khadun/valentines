@@ -235,7 +235,7 @@ body {
 }
 @media screen and (max-width: 767.98px) {
   .header__btns img{
-    width: 10%;
+    width: 100%;
   }
 }
 
