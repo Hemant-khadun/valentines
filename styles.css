@@ -38,6 +38,7 @@ body {
   background-size: cover;
 }
 
+
 .section.space-01 {
   background-image: url("assets/images/space-01.jpg");
 }
@@ -52,6 +53,12 @@ body {
   z-index: 2;
   perspective: 500px;
   overflow: hidden;
+}
+
+@media screen and (max-width: 767.98px) {
+  .image-container img{
+    height: 80% !important;
+  }
 }
 
 .image-container img {
