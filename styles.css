@@ -38,6 +38,11 @@ body {
   background-size: cover;
 }
 
+@media screen and (max-width: 767.98px) {
+  .image-container img{
+    height: 80vh;
+  }
+}
 
 .section.space-01 {
   background-image: url("assets/images/space-01.jpg");
