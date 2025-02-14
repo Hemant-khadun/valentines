@@ -65,13 +65,21 @@ body {
   background-image: url("assets/images/planet-01.jpg");
 }
 .section.space-02 {
-  background-image: url("assets/images/final-valentines-img.png");
+  background-image: url("assets/images/final-valentines-img.webp");
 }
 .section.planet-02 {
   background-image: url("assets/images/planet-02.jpg");
 }
 .section.planet-03 {
   background-image: url("assets/images/planet-03.jpg");
+}
+
+@media screen and (max-width: 767.98px) {
+  .section.space-02 {
+    background-size: contain;
+    background-repeat: repeat;
+    background-position-y: inherit;
+  }
 }
 
 .section-title, .text-to-reveal {
@@ -86,6 +94,14 @@ body {
 
 .text-to-reveal {
   color: transparent;
+}
+
+@media screen and (max-width: 767.98px) {
+  .text-to-reveal {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
 }
 
 .logo.primary{
