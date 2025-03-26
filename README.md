@@ -5,7 +5,6 @@
 
 Welcome to an immersive Valentine's Day experience crafted with ❤️ and the power of **GSAP (GreenSock Animation Platform)**! This project demonstrates how animation and interactivity can transport users into a digital love story.
 
-https://github.com/Hemant-Khadun/valentines/assets/.../preview.gif *(Add a GIF preview if available)*
 
 ## 🌟 Features
 - **Dynamic Heart Animations** - Watch love bloom with fluid GSAP-powered motion
